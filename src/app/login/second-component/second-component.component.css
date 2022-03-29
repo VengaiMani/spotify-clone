@@ -1,0 +1,17 @@
+div {
+    border-radius: 8px;
+    background-attachment: fixed;
+    padding-left: 34px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#heading {
+    text-align: center;
+}
+
+Button {
+    width: auto;
+    padding: 10px 18px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,35 @@
+<div>
+
+    <h1 id="heading">User details</h1>
+
+    <div *ngIf="name!=''">
+        <br>
+        <label for="name">Name</label>
+        <h1 name="name">{{name}}</h1>
+    </div>
+
+    <div *ngIf="email!=''">
+        <br>
+        <label for="email">Email</label>
+        <h1 name="email">{{email}}</h1>
+    </div>
+
+    <div *ngIf="age!=''">
+        <br>
+        <label for="age">Age</label>
+        <h1 name="age">{{age}}</h1>
+    </div>
+
+    <div *ngIf="password!=''">
+        <br>
+        <label for="password">Password</label>
+        <h1 name="password">{{password}}</h1>
+    </div>
+
+    <div *ngIf="name!='' && age!='' && email!='' && password!='' ">
+        <br>
+        <button (click)="gotoHomePage()">Goto home page</button>
+    </div>
+
+
+</div>

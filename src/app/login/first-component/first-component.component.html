@@ -1,0 +1,31 @@
+<h1>Login Form</h1>
+
+<form #userForm="ngForm" (submit)="onSubmit(userForm.value)">
+    <div class="imgcontainer">
+        <img src="assets/images/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="uname"><strong>Username</strong></label>
+        <input type="text" placeholder="Enter Username" name="uname" (change)="onSubmit(userForm.value)" required ngModel>
+
+        <label for="uemail"><strong>Email</strong></label>
+        <input type="text" placeholder="Enter Email" name="uemail" (change)="onSubmit(userForm.value)" required ngModel>
+
+        <label for="uage"><strong>Age</strong></label>
+        <input type="text" placeholder="Enter age" name="uage" (change)="onSubmit(userForm.value)" required ngModel>
+
+        <label for="psw"><strong>Password</strong></label>
+        <input type="password" placeholder="Enter Password" name="psw" (change)="onSubmit(userForm.value)" required ngModel>
+
+        <button type="submit">Login</button>
+        <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</form>

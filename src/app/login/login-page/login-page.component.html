@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="column">
+        <app-first-component (data)="forward($event)"></app-first-component>
+    </div>
+    <div class="column">
+        <app-second-component [data]="data"></app-second-component>
+    </div>
+</div>
