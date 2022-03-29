@@ -1,4 +1,4 @@
-div{
+div {
     background-color: #000;
 }
 
@@ -29,11 +29,11 @@ li a:hover {
 img {
     width: 60px;
     padding-left: 24px;
-    padding-top: 20px;
+    padding-top: 32px;
 }
 
-.brand{
-    float:left;
+.brand {
+    float: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 150%;
 }

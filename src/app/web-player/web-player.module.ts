@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PremiumComponent } from './premium/premium.component';
+import { PlayerComponent } from './player/player.component';
 import { HomeModule } from '../home/home.module';
 
 
 
 @NgModule({
   declarations: [
-    PremiumComponent
+    PlayerComponent
   ],
   imports: [
     CommonModule,
     HomeModule
   ],
   exports:[
-    PremiumComponent
+    PlayerComponent
   ]
 })
-export class PremiumModule { }
+export class WebPlayerModule { }

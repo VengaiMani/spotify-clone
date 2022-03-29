@@ -19,5 +19,10 @@ import { FormsModule } from '@angular/forms';
     HomeModule,
     FormsModule
   ],
+  exports:[
+    LoginPageComponent,
+    FirstComponentComponent,
+    SecondComponentComponent
+  ]
 })
 export class LoginModule { }

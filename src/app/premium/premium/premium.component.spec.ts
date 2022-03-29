@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TrialComponent } from './trial.component';
+import { PremiumComponent } from './premium.component';
 
-describe('TrialComponent', () => {
-  let component: TrialComponent;
-  let fixture: ComponentFixture<TrialComponent>;
+describe('PremiumComponent', () => {
+  let component: PremiumComponent;
+  let fixture: ComponentFixture<PremiumComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TrialComponent ]
+      declarations: [ PremiumComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TrialComponent);
+    fixture = TestBed.createComponent(PremiumComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

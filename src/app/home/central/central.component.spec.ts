@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WebPlayerComponent } from './web-player.component';
+import { CentralComponent } from './central.component';
 
-describe('WebPlayerComponent', () => {
-  let component: WebPlayerComponent;
-  let fixture: ComponentFixture<WebPlayerComponent>;
+describe('CentralComponent', () => {
+  let component: CentralComponent;
+  let fixture: ComponentFixture<CentralComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WebPlayerComponent ]
+      declarations: [ CentralComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WebPlayerComponent);
+    fixture = TestBed.createComponent(CentralComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
